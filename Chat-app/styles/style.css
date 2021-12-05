@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@100&family=Rubik&display=swap');
+html{
+    font-size:62.5%;
+}
+/* To implement mobile version */
+@media screen and (max-width:375px){
+    
+}
+
+body{
+    display:flex;
+    position:relative;
+    height:100vh;
+    margin:0;
+    font-family:"rubik";
+    background-color:hsl(0, 0%, 97%);
+}
+
+h3{
+    margin:0;
+}
+
+.left-purple-design{
+    display:flex;
+    position:fixed;
+    left:-35rem;
+    top:-5rem;
+    width:75rem;
+    height:90rem;
+    background-image:linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-bottom-left-radius:75%;
+    border-bottom-right-radius:50%;
+}
+
+.right-gray-design{
+    display:flex;
+    position:fixed;
+    right:-48rem;
+    bottom:-8rem;
+    width:70rem;
+    height:90rem;
+    background-color:hsl(270, 20%, 96%);
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+}
+
+.phone-box{
+    display:flex;
+    position:relative;
+    left:34rem;
+    top:22rem;
+    width:25rem;
+    height:53rem;
+    border-radius:2.5rem;
+    background-color:#fff;
+    padding:1rem;
+}
+
+.inner-box{
+    display:flex;
+    position:relative;
+    background-color: hsl(270, 20%, 96%);
+    width:100vw;
+    height:100%;
+    border-radius:2.5rem;
+}
+
+.phone-header{
+    display:flex;
+    position:absolute;
+    background-image:linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width:100%;
+    height:15%;
+    border-top-right-radius:2.5rem;
+    border-top-left-radius:2.5rem;
+    border-bottom-right-radius:1rem;
+    border-bottom-left-radius:.5rem;
+}
+
+.phone-header-white-design{
+    display:flex;
+    position:absolute;
+    background-color:#fff;
+    width:55%;
+    height:4%;
+    left:22.5%;
+    border-bottom-left-radius:2.5rem;
+    border-bottom-right-radius:2.5rem;
+}
+
+.message-box{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    width:100%;
+    height:72%;
+    top:15%;
+}
+
+.first-message-box{
+    display:flex;
+    width:15rem;
+    height:3.3rem;
+    text-align: center;
+    padding-left:.8rem;
+    padding-bottom:.8rem;
+    padding-top:.8rem;
+}
+
+.second-message-box{
+    display:flex;
+    width:15rem;
+    height:3.3rem;
+    text-align: center;
+    padding-left:.8rem;
+    padding-bottom:.8rem;
+}
+
+.third-message-box{
+    display:flex;
+    width:15rem;
+    height:3.3rem;
+    text-align: center;
+    padding-left:9rem;
+    padding-bottom:.8rem;
+}
+
+.images-box{
+    display:flex;
+    padding-bottom:.8rem;
+    padding-left:6.2rem;
+}
+
+.fourth-message-box{
+    display:flex;
+    width:15rem;
+    height:3.3rem;
+    text-align: center;
+    padding-left:15rem;
+    padding-bottom:.8rem;
+}
+
+.fifth-message-box{
+    display:flex;
+    width:15rem;
+    height:4.8rem;
+    text-align: center;
+    padding-left:.8rem;
+    padding-bottom:.8rem;
+}
+
+.first-offer{
+
+}
+
+.second-offer{
+
+}
+
+.message-design-dog-keeper{
+    background-color:hsl(299, 10%, 85%);
+    color:hsl(276, 55%, 52%);
+    font-weight:400;
+    border-radius:1rem;
+    padding:0.5rem;
+    display: inline-block;
+    text-align: left;
+    font-size:1rem;
+}
+
+.message-design-client{
+    background-color:#fff;
+    color:hsl(271, 15%, 43%);
+    font-weight:400;
+    border-radius:1rem;
+    padding:0.5rem;
+    display: inline-block;
+    text-align: left;
+    font-size:1rem;
+}
+
+.image-design-dog{
+    border-radius:2rem;
+    height:5rem;
+    width:5rem;
+    padding:.5rem;
+}
+
+.submit-button{
+    display:flex;
+    position:absolute;
+    align-items:center;
+    width:88%;
+    height:7.5%;
+    top:90%;
+    left:6%;
+    border-radius:2rem;
+    background-color:#fff;
+}
+
+.outer-box{
+    display:flex;
+    position:relative;
+    height:35rem;
+    width:50rem;
+    left:72rem;
+    top:-19rem;
+}
+
+.outer-title{
+    position:absolute;
+    font-size:50px;
+    color:hsl(271, 36%, 24%);
+}
+
+.outer-text{
+
+}
+
+@keyframes left-to-right-message{
+
+}
+
+@keyframes right-to-left-message{
+
+}
+
