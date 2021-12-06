@@ -20,6 +20,10 @@ h3{
     margin:0;
 }
 
+h2{
+    margin:0;
+}
+
 .left-purple-design{
     display:flex;
     position:fixed;
@@ -81,11 +85,80 @@ h3{
     display:flex;
     position:absolute;
     background-color:#fff;
-    width:55%;
-    height:4%;
-    left:22.5%;
+    width:14rem;;
+    height:2.3rem;
+    left:5.5rem;
     border-bottom-left-radius:2.5rem;
     border-bottom-right-radius:2.5rem;
+}
+
+.left-of-avatar-symbol{
+    display:flex;
+    position:absolute;
+    left:1.3rem;
+    color:#fff;
+    top:3.8rem;
+
+}
+
+.name-status-box{
+    display:flex;
+    position:relative;
+    flex-direction:column;
+    width:14rem;
+    height:4rem;
+    left:7.2rem;
+    top:3.3rem;
+    color:#fff;
+}
+
+.name-design{
+    font-size:1.3rem;
+    font-weight:500;
+    color:hsl(0, 0%, 92%);
+}
+
+.status-design{
+    color:hsl(276, 100%, 81%);
+}
+
+.top-avatar{
+    display:flex;
+    position:absolute;
+    border-radius:50%;
+    height:3rem;
+    width:3rem;
+    top:3.1rem;
+    left:2.9rem;
+    border:0.2rem solid #fff;
+}
+
+.dots-top{
+    display:flex;
+    position:absolute;
+    width: 0.3em;
+    height: 2rem;
+    color:#fff;
+    font-size:2rem;
+    left:23rem;
+    top:2.5rem;
+}
+
+.top-dot{
+    display:flex;
+    position:absolute;
+}
+
+.mid-dot{
+    display:flex;
+    position:absolute;
+    top:.6rem;
+}
+
+.bottom-dot{
+    display:flex;
+    position:absolute;
+    top:1.2rem;
 }
 
 .message-box{
@@ -134,7 +207,7 @@ h3{
 .fourth-message-box{
     display:flex;
     width:15rem;
-    height:3.3rem;
+    height:2.8rem;
     text-align: center;
     padding-left:15rem;
     padding-bottom:.8rem;
@@ -149,19 +222,58 @@ h3{
     padding-bottom:.8rem;
 }
 
-.first-offer{
+.offer-design{
+    background-image:linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width:18rem;
+    height:3.6rem;
+    margin-left:0.8rem;
+    margin-bottom:0.8rem;
+    border-radius:1rem 1rem 1rem 0.3rem;
+    text-align: center;
+}
 
+.offer-price{
+    position:absolute;
+    left:14rem;
+    top:0.9rem;
+    color:#fff;
+}
+
+.offer-details{
+    position:absolute;
+    left:3.6rem;
+    top:1.2rem;
+    color:#fff;
+    font-weight:400;
+    font-size:1rem;
+    color:hsl(276, 100%, 90%);
+}
+
+.circle {
+    position:absolute;
+    left:0.6rem;
+    top:0.6rem;
+    border-radius: 50%;
+    height: 1.8rem;
+    width: 1.8rem;
+    border: 0.2rem solid hsl(276, 100%, 81%);
+  }	
+
+.first-offer{
+    display:flex;
+    position:relative;
 }
 
 .second-offer{
-
+    display:flex;
+    position:relative;
 }
 
 .message-design-dog-keeper{
     background-color:hsl(299, 10%, 85%);
     color:hsl(276, 55%, 52%);
     font-weight:400;
-    border-radius:1rem;
+    border-radius:1rem 1rem 1rem 0.3rem;
     padding:0.5rem;
     display: inline-block;
     text-align: left;
@@ -172,7 +284,7 @@ h3{
     background-color:#fff;
     color:hsl(271, 15%, 43%);
     font-weight:400;
-    border-radius:1rem;
+    border-radius:1rem 1rem 0.3rem 1rem;
     padding:0.5rem;
     display: inline-block;
     text-align: left;
@@ -186,35 +298,64 @@ h3{
     padding:.5rem;
 }
 
-.submit-button{
+.chat-box{
     display:flex;
     position:absolute;
-    align-items:center;
-    width:88%;
-    height:7.5%;
-    top:90%;
-    left:6%;
+    width:18rem;
+    height:3.5rem;
+    top:47rem;
+    left:1.7rem;;
     border-radius:2rem;
     background-color:#fff;
+    border:hsl(0, 0%, 94%) solid;
+    color:hsl(255, 15%, 43%);
+    padding-left:1.2rem;
+    padding-right:1rem;
+}
+
+.circle-bottom-button{
+    display:flex;
+    position:absolute;
+    border-radius:50%;
+    border:0.1rem solid hsl(260, 36%, 24%);
+    width:3.6rem;
+    height:3.6rem;
+    top:47.4rem;
+    left:18.7rem;
+    background-color:hsl(271, 36%, 24%);
+    cursor:pointer;
+}
+
+.buttom-symbol{
+    display:flex;
+    position:absolute;
+    left:1.3rem;
+    color:#fff;
+    top:0.7rem;
+    font-weight:700;
+    font-size:1.7rem;
 }
 
 .outer-box{
     display:flex;
     position:relative;
     height:35rem;
-    width:50rem;
+    width:60rem;
     left:72rem;
     top:-19rem;
 }
 
 .outer-title{
     position:absolute;
-    font-size:50px;
+    font-size:5rem;
     color:hsl(271, 36%, 24%);
 }
 
 .outer-text{
-
+    position:absolute;
+    font-size:1.8rem;
+    top:10rem;
+    color:hsl(270, 7%, 64%);
 }
 
 @keyframes left-to-right-message{
