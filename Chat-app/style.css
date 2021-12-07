@@ -95,7 +95,7 @@ h3{
     transform:translateY(-150%);
 }
 }
-.whithe-box{
+.white-box{
     position:absolute;
     background-color:white;
     width:60%;
@@ -103,6 +103,18 @@ h3{
     left:20%;
     border-radius: 0 0 20px 20px;
     z-index:1;
+    animation: white-delay 7s ease-in;
+}
+@keyframes white-delay{
+    0%{
+        visibility: hidden;
+    }
+    90%{
+        visibility: hidden;
+    }
+    100%{
+        transform:translateX(0%);
+    }
 }
 .phone-header{
     padding:0;
@@ -279,7 +291,7 @@ h3{
     100%{
         transform:translateY(0%);
     }
-    }
+}
 .massage.purple{
     background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
     color:white;
@@ -300,21 +312,21 @@ h3{
     100%{
         transform:translateY(0%);
     }
+}
+.massage.purple.two{
+    animation: massage-two 15s ease forwards 20ms  ;
+}
+@keyframes massage-two{
+    0%{
+        visibility: hidden;
     }
-    .massage.purple.two{
-        animation: massage-two 15s ease forwards 20ms  ;
+    90%{
+        visibility: hidden;
     }
-    @keyframes massage-two{
-        0%{
-            visibility: hidden;
-        }
-        90%{
-            visibility: hidden;
-        }
-        100%{
-            transform:translateY(0%);
-        }
-        }
+    100%{
+        transform:translateY(0%);
+    }
+    }
  .price{
     position: absolute;
     right: 5px;
@@ -337,13 +349,25 @@ p{
 }
 .massage.blank{
     position: absolute;
-    bottom:-18%;
+    bottom:-22%;
     width:90%;
     border-radius: 40px;
     background-color: white;
     color:hsl(206, 6%, 79%);
     display:flex;
     justify-content:center;
+    animation: blank-delay 6s ease forwards;
+}
+@keyframes blank-delay{
+    0%{
+        visibility: hidden;
+    }
+    90%{
+        visibility: hidden;
+    }
+    100%{
+        transform:translateY(0);
+    }
 }
 .attribution{
     text-align:center;
