@@ -3,8 +3,7 @@
 }
 html {
     font-size: 65%;
- }
-  
+ }  
 body{
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body{
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
     background-color:hsl(270, 20%, 96%) ;
-    
 }
 .box{
     position:absolute;  
@@ -24,7 +22,7 @@ body{
     border-bottom-left-radius: 50% ;
     border-bottom-right-radius: 50% ;
     z-index:-1;
-    animation: left-box 3s ease-in;
+    animation: left-box 3s ease-out;
 }
 @keyframes left-box{
     0%{
@@ -42,7 +40,7 @@ body{
     border-top-right-radius: 50% ;
     z-index:-1;
     transition: 5s;
-    animation: right-box 3s ease-in;
+    animation: right-box 3s ease-out;
 }
 @keyframes right-box{
     0%{
@@ -56,7 +54,7 @@ body{
     left:50%;
     top:40%;
     color:hsl(270, 7%, 64%);
-    animation: text-box 8s ease-in;
+    animation: text-box 8s ease-out;
     margin-left:5px;
 }
 @keyframes text-box{
@@ -86,9 +84,7 @@ h3{
     border-color: white;
     background-color:hsl(270, 20%, 96%) ;
     font-size:12px;
-    animation: left-to-right 6s ease-in;
-    
-
+    animation: left-to-right 6s ease-out;
 }
 @keyframes left-to-right{
 0%{
@@ -103,9 +99,9 @@ h3{
     left:20%;
     border-radius: 0 0 20px 20px;
     z-index:1;
-    animation: white-delay 7s ease-in;
+    /* animation: white-delay 7s ease-in; */
 }
-@keyframes white-delay{
+/* @keyframes white-delay{
     0%{
         visibility: hidden;
     }
@@ -115,7 +111,7 @@ h3{
     100%{
         transform:translateX(0%);
     }
-}
+} */
 .phone-header{
     padding:0;
     margin:0;
@@ -180,7 +176,7 @@ h3{
     flex-direction: column;
 }
 .massage.left1{
-    animation: massage-left1 8s ease forwards 20ms ;
+    animation: massage-left1 8s ease-out 20ms ;
 }
 @keyframes massage-left1{
     0%{
@@ -195,7 +191,7 @@ h3{
     
     }
 .massage.left2{
-    animation: massage-left2 9s ease forwards  20ms ;
+    animation: massage-left2 9s ease-out  20ms ;
 }
 @keyframes massage-left2{
     0%{
@@ -221,7 +217,7 @@ h3{
 
 
 .massage.right.small{
-    animation: massage-right-small 12s ease forwards 20ms  ;
+    animation: massage-right-small 12s ease-out 20ms  ;
     width:40%;
 
 }
@@ -237,7 +233,7 @@ h3{
     }
     }
 .massage.right.one{
-    animation: massage-right-one 11s ease forwards 20ms  ;
+    animation: massage-right-one 11s ease-out 20ms  ;
 }
 @keyframes massage-right-one{
     0%{
@@ -254,7 +250,7 @@ h3{
     background-color:hsl(270, 20%, 96%);    
     display:flex;
     flex-direction:row;
-    animation: massage-right 10s ease forwards  20ms  ;
+    animation: massage-right 10s ease-out  20ms  ;
     width:50%;
 }
 @keyframes massage-right{
@@ -279,7 +275,7 @@ h3{
     margin: 8px;
 }
 .massage.fix{
-    animation: massage-fix 13s ease forwards 20ms  ;
+    animation: massage-fix 13s ease-out 20ms  ;
 }
 @keyframes massage-fix{
     0%{
@@ -300,7 +296,7 @@ h3{
     width:65%;
 }
 .massage.purple.one{
-    animation: massage-one 14s ease forwards 20ms   ;
+    animation: massage-one 14s ease-out 20ms   ;
 }
 @keyframes massage-one{
     0%{
@@ -314,7 +310,7 @@ h3{
     }
 }
 .massage.purple.two{
-    animation: massage-two 15s ease forwards 20ms  ;
+    animation: massage-two 15s ease-out 20ms  ;
 }
 @keyframes massage-two{
     0%{
@@ -356,18 +352,6 @@ p{
     color:hsl(206, 6%, 79%);
     display:flex;
     justify-content:center;
-    animation: blank-delay 6s ease forwards;
-}
-@keyframes blank-delay{
-    0%{
-        visibility: hidden;
-    }
-    90%{
-        visibility: hidden;
-    }
-    100%{
-        transform:translateY(0);
-    }
 }
 .attribution{
     text-align:center;
