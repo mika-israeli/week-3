@@ -1,51 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  Samuel Green
-  Available to Walk
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="background-color background-color__purple"></div>
+    <div class="background-color background-color__light-purple"></div>
 
-  That sounds great. I’d be happy with that.
+    <section class="main">
+      <div class="main__phone">
+        <div class="main__phone--chat">
+          <div class="main__phone--chat__header">
+            <div class="header-content">
+              <div class="arrow"></div>
+              <img src="/images/avatar.jpg" alt="" class="avatar" />
+              <div class="header-name">
+                <h1 class="name">Samuel Green</h1>
+                <p class="name">Available to Talk</p>
+              </div>
+              <div class="dot-options"></div>
+            </div>
+          </div>
+          <div class="conversation-box">
+            <div class="msg-left1">
+              That sounds great. I’d be happy with that.
+            </div>
+            <div class="msg-left2">
+              Could you send over some pictures of your dog, please?
+            </div>
+            <div class="msg-imges">
+              <img src="/images/dog-image-1.jpg" alt="" class="dog-img" />
+              <img src="/images/dog-image-2.jpg" alt="" class="dog-img" />
+              <img src="/images/dog-image-3.jpg" alt="" class="dog-img" />
+            </div>
+            <div class="msg-right1">
+              Here are a few pictures. She’s a happy girl!
+            </div>
+            <div class="msg-right2">Can you make it?</div>
+            <div class="msg-left3">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </div>
+            <div class="msg-pricing">
+              <p class="price">30 minute walk $29</p>
+            </div>
+            <div class="msg-pricing2">
+              <p class="price">1 hour walk $49</p>
+            </div>
+          </div>
+          <div class="msg-box">
+            <div class="msg-box__messege">Type a message…</div>
+            <div class="msg-box__arrow"></div>
+          </div>
+          <!--  Here are
+          a few pictures. She’s a happy girl! Can you make it? She looks so
+          happy! The time we discussed works. How long shall I take her out for?
+          30 minute walk $29 1 hour walk $49 Type a message… -->
+        </div>
+      </div>
+      <div class="main__about">
+        <h1 class="about-header">Simple booking</h1>
+        <p class="about">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </section>
 
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She’s a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
